@@ -8,13 +8,13 @@ nav_order: 0
 >
 > You may delete this `attention` box.
 
-# [Project Name]
+# GIO
 
-[Project description]
+Often, planning meetings and events with friends while juggling studies and work, lead to frustration and unnecessary waste of time due to suboptimal tools. To supplement current calendar functions, GIO aims to make users enjoy making plans again. The GIO application enables the user to easily share availabilities and more communicative comprehensive scheduling.
 
 ## Team members
 
-### [Jane Dane]
+### Tien Minh Nguyen
 
 About
 : Some info about Jane
@@ -22,13 +22,13 @@ About
 Matr.-Nr.
 : 1234567
 
-### [Joe Doe]
+### Dao Minh Duong Nguyen
 
 About
 : Some info about Joe
 
 Matr.-Nr.
-: 1234567
+: 77211761694
 
 ## Eidesstattliche Erklärung
 
