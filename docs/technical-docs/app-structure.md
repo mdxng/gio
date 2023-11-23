@@ -15,4 +15,7 @@ nav_order: 1
 <summary>Table of contents</summary>
 + ToC
 {: toc }
+
+  ![get_lists() sample](../assets/images/GIO LOGIN.png)
+
 </details>
