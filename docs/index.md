@@ -3,11 +3,6 @@ title: Home
 nav_order: 0
 ---
 
-{: .attention }
-> Any text enclosed by `[ ]` are placeholders, including the opening and closing brackets.
->
-> You may delete this `attention` box.
-
 # GIO
 
 Often, planning meetings and events with friends while juggling studies and work, lead to frustration and unnecessary waste of time due to suboptimal tools. To supplement current calendar functions, GIO aims to make users enjoy making plans again. The GIO application enables the user to easily share availabilities and more communicative comprehensive scheduling.
