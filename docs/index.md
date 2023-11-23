@@ -17,7 +17,7 @@ Often, planning meetings and events with friends while juggling studies and work
 ### Tien Minh Nguyen
 
 About
-: Some info about Jane
+: I want to make planning for and with friends more effective with a better overview.
 
 Matr.-Nr.
 : 77211922857
@@ -25,7 +25,7 @@ Matr.-Nr.
 ### Dao Minh Duong Nguyen
 
 About
-: Some info about Joe
+: Besides wanting to achieve a functional app, I think design and user interaction go hand in hand. Therefore my personal goal for GIO is combining usability with aesthetics.
 
 Matr.-Nr.
 : 77211761694
