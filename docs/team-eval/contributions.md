@@ -5,7 +5,7 @@ nav_order: 4
 ---
 
 {: .label }
-[Jane Dane]
+Dao Minh Duong Nguyen 
 
 # [Summary of individual contributions]
 {: .no_toc }
