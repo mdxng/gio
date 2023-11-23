@@ -16,6 +16,6 @@ nav_order: 1
 + ToC
 {: toc }
 
-  ![get_lists() sample](../assets/images/GIO LOGIN.png)
+![LOGIN](GIO Login.png)
 
 </details>
