@@ -19,24 +19,24 @@ Dao Minh Duong Nguyen
 
 ## User
 
-| UserId | Name | Password | 
+| #UserId | Name | Password | 
 | ----------- | ----------- | ----------- |
-| 01 | | |
+|  |  |  |
 
 ## Event 
 
-| EventId | Titel | Beschreibung | Datum | 
+| #EventId | Titel | Beschreibung | Datum | 
 | ----------- | ----------- | ----------- | ----------- |
-| 01 | Hockey | | | 
+|  |  |  |  | 
 
 ## Comment
 
-| Syntax | Description |
+| #CommentId | <fk>EventId | <fk>UserId | Content | 
 | ----------- | ----------- |
-| Header | Title |
+|  |  |  |  |
 
 ## ToDo
 
-| Syntax | Description |
+| #ToDoId | <fk>EventId | Item |
 | ----------- | ----------- |
-| Header | Title |
+|  |  |  |
