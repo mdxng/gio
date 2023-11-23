@@ -32,11 +32,11 @@ Dao Minh Duong Nguyen
 ## Comment
 
 | #CommentId | <fk>EventId | <fk>UserId | Content | 
-| ----------- | ----------- |
+| ----------- | ----------- | ----------- | ----------- |
 |  |  |  |  |
 
 ## ToDo
 
 | #ToDoId | <fk>EventId | Item |
-| ----------- | ----------- |
+| ----------- | ----------- | ----------- |
 |  |  |  |
