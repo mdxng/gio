@@ -13,7 +13,7 @@ def index():
 
 @app.route('/register/')
 def register():
-    return 'This is the register page'
+    return render_template('register.html')
 
 # login page
 
@@ -25,4 +25,4 @@ def login():
 
 @app.route('/settings/<int:id>')
 def usersettings(id):
-    return 'This is the settings page'
+    return render_template('settings.html')
