@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang=en>
+
+<head>
+    <title>{% block TITLE %}{% endblock %} - GIO</title>
+</head>
+
+<body>
+<nav>
+    <h1>GIO</h1>
+</nav>
+<section class="content">
+    <header>{% block HEADER %}{% endblock %}</header>
+    {% block CONTENT %}{% endblock %}
+</section>
+</body>
+
+</html>
