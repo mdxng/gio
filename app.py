@@ -1,9 +1,11 @@
 from flask import Flask, render_template, redirect, url_for, request
-
+from flask_bootstrap import Bootstrap5
 
 app = Flask(__name__)
 
 #home  
+
+bootstrap = Bootstrap5(app)
 
 @app.route('/')
 def index():
