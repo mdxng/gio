@@ -7,7 +7,7 @@ nav_order: 4
 {: .label }
 Dao Minh Duong Nguyen 
 
-# [Reference documentation]
+# Reference documentation
 {: .no_toc }
 
 {: .attention }
