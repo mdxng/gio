@@ -6,7 +6,7 @@ nav_order: 4
 {: .label }
 Dao Minh Duong Nguyen 
 
-# [User evaluation]
+# User evaluation
 {: .no_toc }
 
 <details open markdown="block">

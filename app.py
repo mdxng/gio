@@ -1,11 +1,11 @@
 from flask import Flask, render_template, redirect, url_for, request
 from flask_bootstrap import Bootstrap5
 
-app = Flask(__name__)
-
-#home  
+app = Flask(__name__)  
 
 bootstrap = Bootstrap5(app)
+
+# home page
 
 @app.route('/')
 def index():
@@ -25,6 +25,12 @@ def login():
 
 # settings page
 
-@app.route('/settings/<int:id>')
-def usersettings(id):
+@app.route('/settings/')
+def settings():
     return render_template('settings.html')
+
+#event page
+
+@app.route('/event/')
+def event():
+    return render_template('event.html')

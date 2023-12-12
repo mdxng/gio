@@ -7,7 +7,7 @@ nav_order: 3
 {: .label }
 Dao Minh Duong Nguyen 
 
-# [Data model]
+# Data model
 {: .no_toc }
 
 <details open markdown="block">
@@ -31,12 +31,12 @@ Dao Minh Duong Nguyen
 
 ## Comment
 
-| #CommentId | <fk>EventId | <fk>UserId | Content | 
+| #CommentId | \<fk>EventId | \<fk>UserId | Content | 
 | ----------- | ----------- | ----------- | ----------- |
 |  |  |  |  |
 
 ## ToDo
 
-| #ToDoId | <fk>EventId | Item |
+| #ToDoId | \<fk>EventId | Item |
 | ----------- | ----------- | ----------- |
 |  |  |  |

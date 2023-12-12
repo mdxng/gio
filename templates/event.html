@@ -7,10 +7,10 @@
           <a class="nav-link" href="{{ url_for('index') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('event') }}">Create Event</a>
+          <a class="nav-link active" aria-current="page" href="{{ url_for('event') }}">Create Event</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{ url_for('settings') }}">Settings</a>
+          <a class="nav-link" href="{{ url_for('settings') }}">Settings</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ url_for('login') }}" style="color: thistle;">Log out</a>
@@ -24,7 +24,7 @@
 {% endblock %}
 
 {% block HEADER %}
-    <h2>{% block TITLE %}Settings{% endblock %}</h2>
+    <h2>{% block TITLE %}Create Event{% endblock %}</h2>
 {% endblock %}
 
 {% block CONTENT %}

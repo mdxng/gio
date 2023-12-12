@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- (1.) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
     <title>{% block TITLE %}{% endblock %} GIO </title>
     {{ bootstrap.load_css() }}
 </head>
@@ -17,13 +17,21 @@
       <span class="navbar-toggler-icon"></span>
     </button> 
 
+{% block NAV %}    
+
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Settings</a>
+          <a class="nav-link" href="{{ url_for('event') }}">Create Event</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('settings') }}">Settings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('login') }}" style="color: thistle;">Log out</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -31,6 +39,9 @@
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div> 
+
+{% endblock %}
+
 </nav>
 
 <section class="content">
