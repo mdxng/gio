@@ -3,6 +3,10 @@ from flask_bootstrap import Bootstrap5
 
 app = Flask(__name__)  
 
+app.config.from_mapping(
+    BOOTSTRAP_BOOTSWATCH_THEME = 'lux'  
+)
+
 bootstrap = Bootstrap5(app)
 
 # home page
