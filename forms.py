@@ -15,16 +15,15 @@ class CreateEventForm(FlaskForm):
     date = DateField(validators=[InputRequired()])
     submit = SubmitField('Create')
 
-    #To Do
+# event to do form 
+    
+class ToDoForm(FlaskForm):
     check = BooleanField()
     toDo = StringField(validators=[Length(min=1)])
     toDoSubmit = SubmitField('Add')
 
-    #Comment
+# event comment form 
+
+class CommentForm(FlaskForm):
     comment = TextAreaField(validators=[Length(min=1)])
     commentSubmit = SubmitField('Comment')
-
-
-
-
-

@@ -40,12 +40,22 @@ def settings():
 @app.route('/event/', methods=['GET', 'POST'])
 def event():
     form = forms.CreateEventForm()
+    todo_form = forms.ToDoForm()
+    comment_form = forms.CommentForm()
     if request.method == 'GET':
-        return render_template('event.html', event=event, form=form)
+        return render_template('event.html', event=event, form=form, todo_form=todo_form, comment_form=comment_form)
     else:
         if form.validate():
-            flash('Done', 'success')
+            flash('Event created', 'success')
+        if todo_form.validate():
+            flash('To Do added', 'success')
+        if comment_form.validate(): 
+            flash('Comment added', 'success')
         else:
             flash('Error','warning')
         return redirect(url_for('event'))
+        
+
+
+
 

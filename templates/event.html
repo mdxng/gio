@@ -2,94 +2,119 @@
 
 {% block NAV %}
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('index') }}">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{ url_for('event') }}">Create Event</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('settings') }}">Settings</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('login') }}" style="color: thistle;">Log out</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-secondary" type="submit">Search</button>
-      </form>
-    </div> 
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+      <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="{{ url_for('event') }}">Create Event</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{ url_for('settings') }}">Settings</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{ url_for('login') }}" style="color: thistle;">Log out</a>
+    </li>
+  </ul>
+  <form class="d-flex" role="search">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-secondary" type="submit">Search</button>
+  </form>
+</div>
 {% endblock %}
 
 {% block HEADER %}
-    {% block TITLE %}Create Event{% endblock %}
+{% block TITLE %}Create Event{% endblock %}
 {% endblock %}
 
 {% block CONTENT %}
 
-<div class="container d-flex justify-content-center align-items-center mt-3" >
-  <form action="{{ url_for('event') }}" method="post">
+<!-- Event Details -->
 
-    {{ form.method(value='PATCH') }}
-    {{ form.csrf_token }}
+<div class="card mx-auto" style="width: 30rem;">
+  <div class="card-body">
+    <h5 class="card-title">Event Details</h5>
+    <form action="{{ url_for('event') }}" method="post">
 
-    <!-- Event -->
-    <div class="form-group row row-cols-lg-auto">
-      <div class="col">
-        <label>Title</label>
-      </div>
-      <div class="col">
-        {{ form.title(class='form-control') }}
-      </div>
-    </div>
-    <div class="form-group row row-cols-lg-auto">
-      <div class="col">
-        <label>Date</label>
-      </div>
-      <div class="col">
-        {{ form.date }}
-      </div>
-    </div>
-    <div class="form-group row row-cols-lg-auto justify-content-center border-bottom pb-3">
-      <div class="col">
-        {{ form.submit(class='btn btn-primary') }}
-      </div>
-    </div>
+      {{ form.method(value='PATCH') }}
+      {{ form.csrf_token }}
 
-    <!-- To Do -->
-    <div class="form-group row row-cols-lg-auto">
-      <div class="col">
-        {{ form.check }}
+      <!-- Event -->
+      <div class="form-group row row-cols-lg-auto">
+        <div class="col">
+          <label>Title</label>
+        </div>
+        <div class="col">
+          {{ form.title(class='form-control') }}
+        </div>
       </div>
-      <div class="col">
-        {{ form.toDo(class='form-control') }}
+      <div class="form-group row row-cols-lg-auto">
+        <div class="col">
+          <label>Date</label>
+        </div>
+        <div class="col">
+          {{ form.date }}
+        </div>
       </div>
-    </div>
-    <div class="form-group row row-cols-lg-auto justify-content-center border-bottom pb-3">
-      <div class="col">
-        {{ form.toDoSubmit(class='btn btn-primary') }}
+      <div class="form-group row row-cols-lg-auto justify-content-center border-bottom pb-3">
+        <div class="col">
+          {{ form.submit(class='btn btn-primary') }}
+        </div>
       </div>
-    </div>
+    </form>
 
-    <!-- Comment -->
-    <div class="form-group row row-cols-lg-auto">
-      <div class="col">
-        <label>Comment</label>
-      </div>
-      <div class="col">
-        {{ form.comment(class='form-control') }}
-      </div>
-    </div>
-    <div class="form-group row row-cols-lg-auto justify-content-center">
-      <div class="col">
-        {{ form.commentSubmit(class='btn btn-primary') }}
-      </div>
-    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <h5 class="card-title">List</h5>
+        <form action="{{ url_for('event') }}" method="post">
 
-  </form>
+          {{ form.method(value='PATCH') }}
+          {{ form.csrf_token }}
+
+          <!-- To Do -->
+          <div class="form-group row row-cols-lg-auto">
+            <div class="col">
+              {{ todo_form.check }}
+            </div>
+            <div class="col">
+              {{ todo_form.toDo(class='form-control') }}
+            </div>
+          </div>
+          <div class="form-group row row-cols-lg-auto justify-content-center border-bottom pb-3">
+            <div class="col">
+              {{ todo_form.toDoSubmit(class='btn btn-primary') }}
+            </div>
+          </div>
+        </form>
+      </li>
+      <li class="list-group-item">
+        <h5 class="card-title">Comment</h5>
+        <form action="{{ url_for('event') }}" method="post">
+
+          {{ form.method(value='PATCH') }}
+          {{ form.csrf_token }}
+
+          <!-- Comment -->
+          <div class="form-group row row-cols-lg-auto">
+            <div class="col">
+              <label>Comment</label>
+            </div>
+            <div class="col">
+              {{ comment_form.comment(class='form-control') }}
+            </div>
+          </div>
+          <div class="form-group row row-cols-lg-auto justify-content-center">
+            <div class="col">
+              {{ comment_form.commentSubmit(class='btn btn-primary') }}
+            </div>
+          </div>
+        </form>
+      </li>
+    </ul>
+    <div class="card-footer text-center">
+       <a href="#"> In need of help? </a>
+    </div>
+  </div>
 </div>
-
 
 {% endblock %}

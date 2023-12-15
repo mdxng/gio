@@ -1,9 +1,89 @@
 {% extends 'base.html' %}
 
 {% block HEADER %}
-    {% block TITLE %}Home{% endblock %}
+{% block TITLE %}Home{% endblock %}
 {% endblock %}
 
 {% block CONTENT %}
+
+<div class="col-md-12 mt-4">
+    <div class="row">
+        <!-- Navigation buttons -->
+        <div class="col text-left">
+            <button class="btn btn-primary btn-sm" onclick="prevWeek()">Previous</button>
+        </div>
+        <div class="col text-center">
+            <h4>Current Week</h4>
+        </div>
+        <div class="col text-right">
+            <button class="btn btn-primary btn-sm" onclick="nextWeek()">Next</button>
+        </div>
+    </div>
+
+    <div class="col-md-12 mt-4">
+        <div class="row">
+            <div class="col text-center bg-light">Monday</div>
+            <div class="col text-center bg-light">Tuesday</div>
+            <div class="col text-center bg-light">Wednesday</div>
+            <div class="col text-center bg-light">Thursday</div>
+            <div class="col text-center bg-light">Friday</div>
+            <div class="col text-center bg-light">Saturday</div>
+            <div class="col text-center bg-light">Sunday</div>
+        </div>
+
+        <div class="row">
+            <div class="col border">
+                <!-- Monday -->
+            </div>
+            <div class="col border">
+                <!-- Tuesday -->
+                <div class="card border-success mb-3 mt-2 mb-2">
+                    <div class="card-body text-success">
+                        Sports
+                    </div>
+                </div>
+            </div>
+            <div class="col border">
+                <!-- Wednesday -->
+            </div>
+            <div class="col border">
+                <!-- Thursday -->
+            </div>
+            <div class="col border">
+                <!-- Friday -->
+            </div>
+            <div class="col border">
+                <!-- Saturday -->
+            </div>
+            <div class="col border">
+                <!-- Sunday -->
+                <div class="card border-success mb-3 mt-2 mb-2">
+                    <div class="card-body text-success">
+                        Available
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <!-- Create Event button -->
+        <div class="col text-right">
+            <a href="{{ url_for('event') }}" class="btn btn-primary btn-sm">Create Event</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function nextWeek() {
+        // Add your logic to switch to the next week
+        alert('Switching to the next week');
+    }
+    function prevWeek() {
+        // Add your logic to switch to the previous week
+        alert('Switching to the previous week');
+    }
+</script>
+
 
 {% endblock %}
