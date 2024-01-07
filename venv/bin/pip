@@ -1,4 +1,6 @@
-#!/Users/minhnguyen/gio/venv/bin/python3
+#!/bin/sh
+'''exec' "/Users/minghi/FINAL GIO/gio/venv/bin/python3.11" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

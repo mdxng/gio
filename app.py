@@ -25,7 +25,7 @@ def register():
 
 @app.route('/login/')
 def login():
-    return 'This is the login page'
+    return render_template('login.html')
 
 # settings page
 
