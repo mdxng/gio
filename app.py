@@ -11,11 +11,15 @@ app.config.from_mapping(
 
 bootstrap = Bootstrap5(app)
 
-# home page
-
-@app.route('/')
-def index():
-    return render_template('home.html')
+# login page
+@app.route('/', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        # Handle the form submission (login logic) here
+        return render_template('home.html')
+    else:
+        # Handle GET request (render the login form)
+        return render_template('login.html')
 
 #register page
 
@@ -23,11 +27,11 @@ def index():
 def register():
     return render_template('register.html')
 
-# login page
+# home page
 
-@app.route('/login/')
-def login():
-    return 'This is the login page'
+@app.route('/home')
+def index():
+    return render_template('home.html')
 
 # settings page
 
@@ -55,7 +59,8 @@ def event():
             flash('Error','warning')
         return redirect(url_for('event'))
         
-
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 
