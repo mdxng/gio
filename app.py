@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, request, session
+from flask import Flask, render_template, redirect, url_for, request, flash, session
 from flask_bootstrap import Bootstrap5
 from flask_sqlalchemy import SQLAlchemy
 from blinker import Namespace
@@ -105,6 +105,25 @@ def settings():
         return render_template('settings.html', user=user)  
     else:
         return 'You are not logged in'
+    
+@app.route('/change_password', methods=['POST'])
+def change_password():
+   
+    new_password = request.form.get('new_password')
+
+   
+    if current_user:
+  
+        current_user.set_password(new_password)
+        db.session.commit()
+
+        flash('Password successfully changed!', 'success')
+
+        return redirect(url_for('settings'))
+    else:
+
+        flash('You must be logged in to change your password', 'error')
+        return redirect(url_for('login'))
 
 # event page
 @app.route('/event/')

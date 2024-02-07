@@ -2,52 +2,76 @@
 
 {% block NAV %}
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+            <a class="nav-link" href="{{ url_for('index') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('event') }}">Create Event</a>
+            <a class="nav-link" href="{{ url_for('event') }}">Create Event</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{ url_for('settings') }}">Settings</a>
+            <a class="nav-link active" aria-current="page" href="{{ url_for('settings') }}">Settings</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('login') }}" style="color: thistle;">Log out</a>
+            <a class="nav-link" href="{{ url_for('logout') }}" style="color: thistle;">Log out</a>
         </li>
-      </ul>
-      <form class="d-flex" role="search">
+    </ul>
+    <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-secondary" type="submit">Search</button>
-      </form>
-    </div> 
+    </form>
+</div>
 {% endblock %}
 
 {% block HEADER %}
-    <h2>{% block TITLE %}Settings{% endblock %}</h2>
+<h2>{% block TITLE %}Settings{% endblock %}</h2>
 {% endblock %}
 
 {% block CONTENT %}
-    <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <!-- Demo profile picture -->
-                    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="img-fluid rounded-circle mb-3">
-                </div>
-                <div class="col-md-8">
-                    <!-- User ID -->
-                    <div class="mb-3">
-                        <label for="userID" class="form-label">User ID:</label>
-                        <input type="text" class="form-control" id="userID" value="{{ user.id }}" readonly>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <!-- Demo profile picture -->
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="img-fluid rounded-circle mb-3">
+        </div>
+        <div class="col-md-8">
+            <!-- User ID -->
+            <div class="mb-3">
+                <label for="userID" class="form-label">User ID:</label>
+                <input type="text" class="form-control" id="userID" value="{{ user.id }}" readonly>
+            </div>
+            <!-- Username -->
+            <div class="mb-3">
+                <label for="username" class="form-label">Username:</label>
+                <input type="text" class="form-control" id="username" value="{{ user.username }}" readonly>
+            </div>
+            <!-- Change Password Button -->
+            <button type="button" id="changePasswordBtn" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#changePasswordModal">Change Password</button>
+
+            <!-- Password Change Modal -->
+            <div class="modal fade" id="changePasswordModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Change Password</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="newPassword" class="form-label">New Password</label>
+                                <input type="password" class="form-control" id="newPassword" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button id="savePasswordBtn" type="button" class="btn btn-primary">Save Password</button>
+                        </div>
                     </div>
-                    <!-- Username -->
-                    <div class="mb-3">
-                        <label for="username" class="form-label">Username:</label>
-                        <input type="text" class="form-control" id="username" value="{{ user.username }}" readonly>
-                    </div>
-                    <!-- Change Password Button -->
-                    <button type="button" class="btn btn-primary">Change Password</button>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 {% endblock %}
+
+
