@@ -7,7 +7,7 @@ nav_order: 4
 {: .label }
 Dao Minh Duong Nguyen 
 
-# [Summary of individual contributions]
+# Summary of individual contributions
 {: .no_toc }
 
 <details open markdown="block">
@@ -17,16 +17,28 @@ Dao Minh Duong Nguyen
 {: toc }
 </details>
 
-## [Jane Dane]
+## Dao Minh Duong Nguyen
 
 Contributions
-: Jane's first contribution
-: Jane's second contribution
-: ...
+: Setting up Git Pages
+: Setting up GitHub Project environment
+: Creating Base Page, Home, Calendar View  
+: Create Event Form
+: Taking care of styling of the page with Bootstrap and theme
+: Creating power point for presentation
+: Setting up milestones
+: Creating tagged documentation pages 
+: Reviewing 
 
-## [Joe Doe]
+## Tien Minh Nguyen
 
 Contributions
-: Joe's first contribution
-: Joe's second contribution
-: ...
+: Setting up GitHub repository
+: Adding Author Tags to Git Pages 
+: Creating Login and database connection 
+: Setting up meetings
+: Taking care of Design Decisions
+: Creating tagged documentation pages 
+: Reviewing 
+
+

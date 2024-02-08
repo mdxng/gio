@@ -7,4 +7,4 @@ nav_order: 5
 {: .label }
 Dao Minh Duong Nguyen 
 
-# [Team evaluation]
+# Team evaluation

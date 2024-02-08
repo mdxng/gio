@@ -17,16 +17,52 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-secondary" type="submit">Search</button>
+        <input class="form-control me-2" type="search" placeholder="# Friend ID" aria-label="Search">
+        <button class="btn btn-outline-secondary" type="submit">Add Friend</button>
       </form>
     </div> 
 {% endblock %}
 
 {% block HEADER %}
-    <h2>{% block TITLE %}Settings{% endblock %}</h2>
+    {% block TITLE %}Settings{% endblock %}
 {% endblock %}
 
 {% block CONTENT %}
+<head>
+</head>
+<body>
+    <div class="container mt-4">
+
+<!-- Demo Profile Picture -->
+        <div class="mb-3">
+            <label for="profilePicture" class="form-label">Demo Profile Picture:</label>
+            <img src="path/to/demo_profile_picture.jpg" alt="Demo Profile Picture" class="img-fluid">
+        </div>
+
+        <!-- ID Number -->
+        <div class="mb-3">
+            <label for="idNumber" class="form-label">ID Number:</label>
+            <p id="idNumber">123456789</p>
+        </div>
+
+        <!-- Name -->
+        <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <p id="name">John Doe</p>
+        </div>
+
+        <!-- Password -->
+        <div class="mb-3">
+            <label for="password" class="form-label">Password:</label>
+            <p id="password">********</p>
+             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+                Change Password
+            </button>
+        </div>
+
+        
+    </div>
+</body>
+</html>
 
 {% endblock %}
