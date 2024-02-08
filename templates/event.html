@@ -28,5 +28,30 @@
 {% endblock %}
 
 {% block CONTENT %}
-
+ <div class="container">
+        <form action="{{ url_for('event') }}" method="POST">
+            <div class="mb-3">
+                <label for="event_title" class="form-label">Event Title</label>
+                <input type="text" class="form-control" id="event_title" name="event_title" required>
+            </div>
+            <div class="mb-3">
+                <label for="event_date" class="form-label">Event Date</label>
+                <input type="date" class="form-control" id="event_date" name="event_date" required>
+            </div>
+            <div class="mb-3">
+                <label for="event_time" class="form-label">Event Time</label>
+                <input type="time" class="form-control" id="event_time" name="event_time" required>
+            </div>
+             </div>
+            <div class="mb-3">
+                <label for="checklist" class="form-label">Checklist</label>
+                <textarea class="form-control" id="checklist" name="checklist" rows="3" placeholder="Add items to the checklist"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="comments" class="form-label">Comments</label>
+                <textarea class="form-control" id="comments" name="comments" rows="5" placeholder="Add any comments for the event"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Create Event</button>
+        </form>
+    </div>
 {% endblock %}
