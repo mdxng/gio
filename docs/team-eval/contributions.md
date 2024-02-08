@@ -26,7 +26,9 @@ Contributions
 : Create Event Form
 : Taking care of styling of the page with Bootstrap and theme
 : Creating power point for presentation
-: Setting up meetings
+: Setting up milestones
+: Creating tagged documentation pages 
+: Reviewing 
 
 ## Tien Minh Nguyen
 
@@ -36,3 +38,7 @@ Contributions
 : Creating Login and database connection 
 : Setting up meetings
 : Taking care of Design Decisions
+: Creating tagged documentation pages 
+: Reviewing 
+
+
