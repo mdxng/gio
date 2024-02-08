@@ -1,5 +1,6 @@
-from flask import Flask, render_template, redirect, url_for, request, flash, session
+from flask import Flask, render_template, redirect, url_for, request, flash, flash, session
 from flask_bootstrap import Bootstrap5
+import forms
 from flask_sqlalchemy import SQLAlchemy
 from blinker import Namespace
 from db import db, User
@@ -8,6 +9,7 @@ app = Flask(__name__)
 
 
 app.config.from_mapping(
+    SECRET_KEY = 'secret_key_just_for_dev_environment',
     SECRET_KEY = 'secret_key_just_for_dev_environment',
     BOOTSTRAP_BOOTSWATCH_THEME = 'lux'  
 )
@@ -123,9 +125,29 @@ def change_password():
         return redirect(url_for('login'))
 
 # event page
-@app.route('/event/')
+@app.route('/event/', methods=['GET', 'POST'])
 def event():
-    return render_template('event.html')
+    form = forms.CreateEventForm()
+    todo_form = forms.ToDoForm()
+    comment_form = forms.CommentForm()
+    if request.method == 'GET':
+        return render_template('event.html', event=event, form=form, todo_form=todo_form, comment_form=comment_form)
+    else:
+        if form.validate():
+            flash('Event created', 'success')
+        if todo_form.validate():
+            flash('To Do added', 'success')
+        if comment_form.validate(): 
+            flash('Comment added', 'success')
+        else:
+            flash('Error','warning')
+        return redirect(url_for('event'))
+        
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
 
 # Logout route
 @app.route('/logout/')

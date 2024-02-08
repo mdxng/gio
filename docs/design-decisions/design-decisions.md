@@ -6,7 +6,7 @@ nav_order: 3
 {: .label }
 Tien Minh Nguyen
 
-# [Design decisions]
+# Design decisions
 {: .no_toc }
 
 <details open markdown="block">
