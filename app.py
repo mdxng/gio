@@ -6,7 +6,7 @@ from db import db, User
 
 app = Flask(__name__)  
 
-# Configure Flask-Bootstrap5
+
 app.config.from_mapping(
     SECRET_KEY = 'secret_key_just_for_dev_environment',
     BOOTSTRAP_BOOTSWATCH_THEME = 'lux'  
@@ -18,12 +18,12 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
 
-# Define signals
+
 signals = Namespace()
 session_started_signal = signals.signal('session-started')
 session_teardown_signal = signals.signal('session-teardown')
 
-# Connect functions to signals
+
 @session_started_signal.connect
 def session_started(sender, app):
     print("Session started")
@@ -110,18 +110,15 @@ def settings():
 def change_password():
    
     new_password = request.form.get('new_password')
-
+    user_id = session.get('user_id')
    
-    if current_user:
-  
-        current_user.set_password(new_password)
+    if user_id:
+        user = User.query.get(user_id)
+        user.set_password(new_password)
         db.session.commit()
-
         flash('Password successfully changed!', 'success')
-
         return redirect(url_for('settings'))
     else:
-
         flash('You must be logged in to change your password', 'error')
         return redirect(url_for('login'))
 
