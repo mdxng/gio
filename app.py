@@ -15,10 +15,8 @@ bootstrap = Bootstrap5(app)
 @app.route('/', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        # Handle the form submission (login logic) here
         return render_template('home.html')
     else:
-        # Handle GET request (render the login form)
         return render_template('login.html')
 
 #register page

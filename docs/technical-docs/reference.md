@@ -24,62 +24,74 @@ Dao Minh Duong Nguyen
 {: toc }
 </details>
 
-## [Section / module]
+## Login
 
-### `function_definition()`
+### `def login()`
 
-**Route:** `/route/`
+**Route:** `/`
 
-**Methods:** `POST` `GET` `PATCH` `PUT` `DELETE`
+**Methods:** `GET` `POST` 
 
-**Purpose:** [Short explanation of what the function does and why]
-
-**Sample output:**
-
-[Show an image, string output, or similar illustration -- or write NONE if function generates no output]
-
----
-
-## [Example, delete this section] Show to-do lists
-
-### `get_lists()`
-
-**Route:** `/lists/`
-
-**Methods:** `GET`
-
-**Purpose:** Show all to-do lists.
+**Purpose:** handles login submission and renders either login or home template
 
 **Sample output:**
 
-![get_lists() sample](../assets/images/fswd-intro_00.png)
+after a successful login, the home template will be rendered 
 
 ---
 
-### `get_list_todos(list_id)`
+## Register
 
-**Route:** `/lists/<int:list_id>`
+### `def register()`
 
-**Methods:** `GET`
+**Route:** `/register/`
 
-**Purpose:** Retrieve all to-do items of to-do list with ID `list_id` from database and present to user.
+**Purpose:** handles register submission and either renders register or home template
 
 **Sample output:**
 
-![get_list_todos() sample](../assets/images/fswd-intro_02.png)
+after a successful login, the home template will be rendered 
 
 ---
 
-## [Example, delete this section] Insert sample data
+## Home
 
-### `run_insert_sample()`
+### `def index()`
 
-**Route:** `/insert/sample`
+**Route:** `/home`
 
-**Methods:** `GET`
+**Purpose:** renders home page
 
-**Purpose:** Flush the database and insert sample data set
+**Sample output:**
+
+![home](../assets/images/home.png)
+
+---
+
+## Settings
+
+### `def settings()`
+
+**Route:** `/settings/`
+
+**Purpose:** renders setting page
 
 **Sample output:**
 
 Browser shows: `Database flushed and populated with some sample data.`
+
+---
+
+## Event
+
+### `def event()`
+
+**Route:** `/event/`
+
+**Methods:** `GET` `POST` 
+
+**Purpose:** handles form input and checks for validity
+
+**Sample output:**
+
+Invalid input produces Error-message

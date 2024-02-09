@@ -7,4 +7,4 @@ nav_order: 2
 {: .label }
 Tien Minh Nguyen
 
-# [Technical documentation]
+# Technical documentation
