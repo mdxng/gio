@@ -107,36 +107,6 @@ Using Branches was Dao Minh Duong Nguyen's and Tien Minh Nguyen's idea.
 
 ---
 
-## 04: WTForms ?
-
-### Meta
-
-Status
-: Work in progress - **Decided** - Obsolete
-
-Updated
-: 20-02-2024
-
-### Problem statement
-
-???
-
-### Decision
-
-???
-
-### Regarded options
-
-- WTForms
-- ?
-
-| Criterion | WTForms | WO Branch |
-| Know-how| + learned how to use durring the lessons | + We know how to create brnaches  |
-| integration| + WTForms integrates seamlessly with Flask  | -   |
-
-
----
-
 ## 05: Using Pop up warning?
 
 ### Meta
@@ -196,5 +166,63 @@ The Idea was Tien Minh Nguyen's.
 | implementation| - nothing to implement | + implementation is very simple   |
 | usefulness| - nothing  | + seeing status updates in Terminal; better oberservation |
 
+---
+
+## 06: Calendar View
+
+### Meta
+
+Status
+: Work in progress - **Decided** - Obsolete
+
+Updated
+: 21-11-2023
+
+### Problem statement
+
+Is it better to have an overview of the events on a daily/weekly/monthly level?
+
+### Decision
+
+We decided on a weekly level overview since it's the easiest to overlook the nearest upcoming events.
+
+### Regarded options
+
+- Daily
+- Weekly
+- Monthly
+
+| Criterion | Daily | Weekly | Monthly |
+| Overview| - a long list of days,  a lot of scrolling time | + good scope of events  |
+| - to wide scope of events|
+
+
+---
+
+## 06: User E-Mail 
+
+### Meta
+
+Status
+: Work in progress - **Decided** - Obsolete
+
+Updated
+: 21-11-2023
+
+### Problem statement
+
+Is the e-mail of the user necessary for this application?
+
+### Decision
+
+Since we don't want to send out notifications and want to have an easy login process, we decided against needing to put in your mail for registration.
+
+### Regarded options
+
+- Mail needed
+- Mail not needed
+
+| Criterion | Mail needed | Mail not needed |
+| Necessary| - we do not need the mail of the user | + easy login  |
 
 ---

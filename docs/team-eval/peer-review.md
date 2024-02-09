@@ -39,8 +39,8 @@ Dao Minh Duong is a great partner although she a busy person is. She works very 
 
 ### Effect on me (Wirkung)
 
-Duo her being sometimes  busy(but really just sometimes) she is hard to contact her. But she does a very well comunication and has many skills that kept our project in flow. (Props to her powerpoint, and art of formating simple word pages)
+Duo her being sometimes busy(but really just sometimes) she is hard to contact her. But she does a very well communication and has many skills that kept our project in flow. (Props to her powerpoint, and art of formatting simple word pages)
 
 ### Tip for the future (Wunsch)
 
-There is not much to say. But from both sides to start earlier and learning how to use VSCode and Github better, because towards the although the Login function worked it didnt work anymore while merging everything together or on other devices.
+There is not much to say. But from both sides to start earlier and learning how to use VSCode and Github better, because towards the although the Login function worked it didn't work anymore while merging everything together or on other devices.
