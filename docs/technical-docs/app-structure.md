@@ -40,7 +40,7 @@ This is the main Page of the Web application, it includes a navigation bar to na
 
 
 ## Create Event
-Create Event contains the title of the event, date and time selection for the event. User can add a Checklist and leave a comment.
+Create Event contains the title of the event, date and time selection for the event. User can add a checklist and leave a comment.
 
 
 ## Friendslist
