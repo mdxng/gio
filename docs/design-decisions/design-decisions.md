@@ -42,7 +42,7 @@ The Idea of using Bootstraps was Dao Minh Duong Nguyen's.
 - Bootstraps
 
 | Criterion | ownCss | Bootstraps |
-| Know-how| - time consuming and more work to write own CSS | + fast and efficient while using templates  |
+| Know-how | - time consuming and more work to write own CSS | + fast and efficient while using templates  |
 
 
 ---
@@ -72,8 +72,9 @@ The Idea was Tien Minh Nguyen's.
 - SQLAlchemy
 
 | Criterion | SQlite | SQLAlchemy |
-| Know-how| + We know how to write SQL | + similar to SQLite   |
-| Change DB schema| - SQL scattered across code | + using classes   |
+| Know-how | + We know how to write SQL | + similar to SQLite   |
+| Change DB schema | - SQL scattered across code | + using classes   |
+
 ---
 
 ## 03: Creating WO (WORKING)Branch
@@ -96,6 +97,9 @@ Yes Tien Minh created a WO (working) branch, so he could have his own branch to 
 Using Branches was Dao Minh Duong Nguyen's and Tien Minh Nguyen's idea.
 
 ### Regarded options
+
+- Main Branch 
+- WO Branch
 
 | Criterion | Main Branch | WO Branch |
 | Know-how| + We know how to create brnaches | + We know how to create brnaches  |
@@ -123,9 +127,13 @@ Updated
 
 ### Regarded options
 
+- WTForms
+- ?
+
 | Criterion | Main Branch | WO Branch |
 | Know-how| + We know how to create brnaches | + We know how to create brnaches  |
 | work Progress| - can be dificult when two people working in one brnach | + seperate working space; better for testing   |
+
 
 ---
 
@@ -137,7 +145,7 @@ Status
 : **Work in progress** - Decided - Obsolete
 
 Updated
-: DD-MMM-YYYY
+: 30-01-2024
 
 ### Problem statement
 
@@ -149,6 +157,9 @@ Instead of opening a new page a warning pop up should be shown, which can be clo
 The Idea was Tien Minh Nguyen's.
 
 ### Regarded options
+
+- output new page 
+- Pop up window
 
 | Criterion | output new page | Pop up window |
 | Know-how| + We know how to create a simpel output | + We know how to create a pop window  |
@@ -164,7 +175,7 @@ Status
 : Work in progress - **Decided** - Obsolete
 
 Updated
-: DD-MMM-YYYY
+: 01-02-2024
 
 ### Problem statement
 
@@ -177,8 +188,13 @@ The Idea was Tien Minh Nguyen's.
 
 ### Regarded options
 
+- Terminal output
+- no Terminal output
+
 | Criterion | no Terminal output | Terminal output |
 | Know-how| - there is nothing | + simple Terminal outputs knwoledge learned  |
 | implementation| - nothing to implement | + implementation is very simple   |
 | usefulness| - nothing  | + seeing status updates in Terminal; better oberservation |
+
+
 ---
