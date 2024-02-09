@@ -17,4 +17,6 @@ Dao Minh Duong Nguyen
 {: toc }
 </details>
 
+## Improvements
+
 With more time at our hands, we would definitely try and put more effort into the making of the app and its functionalities. Next time, we would try and have better time management considering end of semester is filled with exams and project submissions.
