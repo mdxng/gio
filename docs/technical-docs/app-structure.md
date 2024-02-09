@@ -38,10 +38,12 @@ Users enter a username, choose a password, and confirm it. Then, they click the 
 
 This is the main Page of the Web application, it includes a navigation bar to navigate to the different pages e.g Setting page, a side panel for the friendslist and the main fucntion the calendar. 
 
+<img width="530" alt="GIO Register Screen" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/APP%20images/GIO%20Register%20Screen.png?raw=true">
 
 ## Create Event
 Create Event contains the title of the event, date and time selection for the event. User can add a Checklist and leave a comment.
 
+<img width="530" alt="GIO Register Screen" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/APP%20images/GIO%20Register%20Screen.png?raw=true">
 
 ## Friendslist
 
