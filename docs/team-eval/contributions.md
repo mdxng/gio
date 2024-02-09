@@ -28,6 +28,7 @@ Contributions
 : Creating power point for presentation
 : Setting up milestones
 : Creating tagged documentation pages 
+: Writing README.md
 : Reviewing 
 
 ## Tien Minh Nguyen
