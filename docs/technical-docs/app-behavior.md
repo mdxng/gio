@@ -17,6 +17,6 @@ nav_order: 2
 {: toc }
 </details>
 
-** GIO Flowchart **
+# GIO Flowchart
 
 <img width="530" alt="GIO Flowchart" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/GIOFlowchart.jpg?raw=true">
