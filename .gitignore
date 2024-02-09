@@ -1,5 +1,6 @@
 # Ignore __pycache__ folder (precompiled Python code)
 __pycache__/
+__pycache__
 __pycache__/app.cpython-310.pyc/
 
 # Ignore venv folder (Python Virtual Environment)

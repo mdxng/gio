@@ -22,6 +22,7 @@ Dao Minh Duong Nguyen
 Contributions
 : Setting up Git Pages
 : Setting up GitHub Project environment
+: Setting up templates and creating routes
 : Creating Base Page, Home, Calendar View  
 : Create Event Form
 : Taking care of styling of the page with Bootstrap and theme
