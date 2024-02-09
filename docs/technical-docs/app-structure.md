@@ -32,24 +32,24 @@ Users enter a username, choose a password, and confirm it. Then, they click the 
 
 ## Home Calendar View
 
-This is the main Page of the Web application, it includes a navigation bar to navigate to the different pages e.g Setting page, a side panel for the friendslist and the main fucntion the calendar. 
+This is the main Page of the Web application, it includes a navigation bar to navigate to the different pages e.g Setting page, a side panel for the friendslist and the main function the calendar. 
 
 <img width="530" alt="GIO Home Screen" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/APP%20images/GIO%20Home%20Screen.png?raw=true">
 
 ## Create Event
-Create Event contains the title of the event, date and time selection for the event. User can add a Checklist and leave a comment.
+Create Event contains the title of the event, date and time selection for the event. User can add a checklist and leave a comment.
 
 <img width="530" alt="GIO Event Screen" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/APP%20images/GIO%20Event%20Screen.png?raw=true">
 
 ## Friendslist
 
-The side panel features the list of added friends from the user. The friend is displayed as their username and their User ID. Users can add a friend, by entering their friends User ID and add them with the add button.
+The side panel features the list of added friends from the user. The friend is displayed in form of their username and their UserID. Users can add a friend, by entering their friends UserID and add them with the add button.
 
 <img width="530" alt="GIO Friendslist Screen" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/APP%20images/GIOFriendslist.png?raw=true">
 
 ## Settings 
 
-The Setting screen shows  n editable porfile picture, the users User-ID, Username, users current password and a Button to chnage the password.
+The Setting screen shows  an editable porfile picture, the users UserID, Username, users current password and a button to chnage the password.
 With the "Change Password" button a small pop up window opens where the user can change their current password for a new password.
 
 

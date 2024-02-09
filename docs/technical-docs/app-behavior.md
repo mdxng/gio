@@ -25,10 +25,10 @@ nav_order: 2
 
 # Bahvior
 
-The user logs into their account if the user has an existing account. If not the user has to register themself to create an account. Both the Login and Register create a query to the User database. After been looged in the user's session beginns and can choose diffrent activities:
+The user logs into their account if the user has an existing account. If not the user has to register themself to create an account. Both the Login and Register create a query to the User database. After been logged in, the user's session begins and can choose diffrent activities:
 
 - Create an Event:
-To create an event the user has to enter Title of the event, date of the event, items for the checklist (optional), comment (optional) and submit the entry by pressing the create button. A query in the database for event will be created.
+To create an event the user has to enter title of the event, date of the event, items for the checklist (optional), comment (optional) and submit the entry by pressing the create button. A query in the database for event will be created.
 
 - Calender View:
 The Calender displays the created events.
