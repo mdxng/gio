@@ -19,4 +19,4 @@ nav_order: 2
 
 # GIO Flowchart
 
-<img width="530" alt="GIO Flowchart" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/GIOFlowchart.jpg?raw=true">
+<img width="700" alt="GIO Flowchart" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/GIOFlowchart.jpg?raw=true">
