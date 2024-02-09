@@ -45,9 +45,12 @@ Create Event contains the title of the event, date and time selection for the ev
 
 The side panel features the list of added friends from the user. The friend is displayed as their username and their User ID. Users can add a friend, by entering their friends User ID and add them with the add button.
 
+<img width="530" alt="GIO Friendslist Screen" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/APP%20images/GIOFriendslist.png?raw=true">
+
 ## Settings 
 
 The Setting screen shows  n editable porfile picture, the users User-ID, Username, users current password and a Button to chnage the password.
 With the "Change Password" button a small pop up window opens where the user can change their current password for a new password.
 
 
+<img width="530" alt="GIO Settings Screen" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/APP%20images/GIOSettings.png?raw=true">

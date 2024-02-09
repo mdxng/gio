@@ -35,12 +35,12 @@ Recommend asking for help earlier.
 
 ### My observation (Wahrnehmung)
 
-[A specific observation, regarding know-how, effectiveness, team work or from another relevant area]
+Dao Minh Duong is a great partner although she a busy person is. She works very carefully and does update me from her work from time to time.
 
 ### Effect on me (Wirkung)
 
-[What positive or negative effect did this observation have on the reviewer?]
+Duo her being sometimes  busy(but really just sometimes) she is hard to contact her. But she does a very well comunication and has many skills that kept our project in flow. (Props to her powerpoint, and art of formating simple word pages)
 
 ### Tip for the future (Wunsch)
 
-[What should be changed or strengthened for the point of view of the reviewer? ]
+There is not much to say. But from both sides to start earlier and learning how to use VSCode and Github better, because towards the although the Login function worked it didnt work anymore while merging everything together or on other devices.
