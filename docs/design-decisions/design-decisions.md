@@ -24,7 +24,7 @@ Status
 : Work in progress - **Decided** - Obsolete
 
 Updated
-: DD-MMM-YYYY
+: 20-11-2023
 
 ### Problem statement
 
@@ -38,11 +38,16 @@ The Idea of using Bootstraps was Dao Minh Duong Nguyen's.
 
 ### Regarded options
 
-[Describe any possible design decision that will solve the problem. Assess these options, e.g., via a simple pro/con list.]
+- own CSS
+- Bootstraps
+
+| Criterion | ownCss | Bootstraps |
+| Know-how| - time consuming and more work to write own CSS | + fast and efficient while using templates  |
+
 
 ---
 
-## 02: Using SQL Lite or SQLAlchemy for the Database?
+## 02: Using SQLite or SQLAlchemy for the Database?
 
 ### Meta
 
@@ -50,7 +55,7 @@ Status
 : Work in progress - **Decided** - Obsolete
 
 Updated
-: DD-MMM-YYYY
+: 03-01-2024
 
 ### Problem statement
 
@@ -63,8 +68,12 @@ The Idea was Tien Minh Nguyen's.
 
 ### Regarded options
 
-[Describe any possible design decision that will solve the problem. Assess these options, e.g., via a simple pro/con list.]
+- SQLite
+- SQLAlchemy
 
+| Criterion | SQlite | SQLAlchemy |
+| Know-how| + We know how to write SQL | + similar to SQLite   |
+| Change DB schema| - SQL scattered across code | + using classes   |
 ---
 
 ## 03: Creating WO (WORKING)Branch
@@ -72,10 +81,10 @@ The Idea was Tien Minh Nguyen's.
 ### Meta
 
 Status
-: Work in progress - Decided - **Obsolete**
+: Work in progress - **Decided** - **Obsolete**
 
 Updated
-: DD-MMM-YYYY
+: 15-01-2024
 
 ### Problem statement
 
@@ -88,7 +97,9 @@ Using Branches was Dao Minh Duong Nguyen's and Tien Minh Nguyen's idea.
 
 ### Regarded options
 
-[Describe any possible design decision that will solve the problem. Assess these options, e.g., via a simple pro/con list.]
+| Criterion | Main Branch | WO Branch |
+| Know-how| + We know how to create brnaches | + We know how to create brnaches  |
+| work Progress| - can be dificult when two people working in one brnach | + seperate working space; better for testing   |
 
 ---
 
@@ -100,20 +111,21 @@ Status
 : Work in progress - **Decided** - Obsolete
 
 Updated
-: DD-MMM-YYYY
+: 20-02-2024
 
 ### Problem statement
 
-We have not decided to use which of the two database platforms.
+???
 
 ### Decision
 
-SQLAlchemy was decided. By using SQLAlchemy we are able to work with Python objects.
-The Idea was Tien Minh Nguyen's.
+???
 
 ### Regarded options
 
-[Describe any possible design decision that will solve the problem. Assess these options, e.g., via a simple pro/con list.]
+| Criterion | Main Branch | WO Branch |
+| Know-how| + We know how to create brnaches | + We know how to create brnaches  |
+| work Progress| - can be dificult when two people working in one brnach | + seperate working space; better for testing   |
 
 ---
 
@@ -138,7 +150,9 @@ The Idea was Tien Minh Nguyen's.
 
 ### Regarded options
 
-[Describe any possible design decision that will solve the problem. Assess these options, e.g., via a simple pro/con list.]
+| Criterion | output new page | Pop up window |
+| Know-how| + We know how to create a simpel output | + We know how to create a pop window  |
+| style| - looks lame and not efficient | + looks good and does not need a newpage; more functional   |
 
 ---
 
@@ -163,6 +177,8 @@ The Idea was Tien Minh Nguyen's.
 
 ### Regarded options
 
-[Describe any possible design decision that will solve the problem. Assess these options, e.g., via a simple pro/con list.]
-
+| Criterion | no Terminal output | Terminal output |
+| Know-how| - there is nothing | + simple Terminal outputs knwoledge learned  |
+| implementation| - nothing to implement | + implementation is very simple   |
+| usefulness| - nothing  | + seeing status updates in Terminal; better oberservation |
 ---
