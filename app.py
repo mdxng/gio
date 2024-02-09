@@ -44,7 +44,7 @@ def after_request(response):
     return response
 
 # login page
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/login/', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
         username = request.form['username']
