@@ -1,4 +1,4 @@
-# gio
+# GIO
 The GIO application enables the user to easily share availabilities and more communicative comprehensive scheduling. To supplement current calendar functions, GIO aims to make users enjoy making plans again.
 
 ## GIO Project Documentation
