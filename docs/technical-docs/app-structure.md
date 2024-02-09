@@ -7,7 +7,7 @@ nav_order: 1
 {: .label }
 [Tien Minh Nguyen]
 
-# [App structure, incl. context]
+# App structure, incl. context
 {: .no_toc }
 
 <details open markdown="block">

@@ -16,7 +16,7 @@ Tien Minh Nguyen
 {: toc }
 </details>
 
-## 01: [Creating own CSS or using Boostraps?]
+## 01: Creating own CSS or using Boostraps?
 
 ### Meta
 
@@ -32,7 +32,7 @@ Creating for every single page the same style of CSS would be to time consuming.
 
 ### Decision
 
-We chose to use Bootstraps because by using their CSS templates we are able to have the same style and modern look throuout the website, while it is less time consuming and effectiv.
+We chose to use Bootstraps because by using their CSS templates we are able to have the same style and modern look throughout the website, while it is less time consuming and effectively.
 But of course there will be parts to use our own CSS.
 The Idea of using Bootstraps was Dao Minh Duong Nguyen's.
 
@@ -42,7 +42,7 @@ The Idea of using Bootstraps was Dao Minh Duong Nguyen's.
 
 ---
 
-## 02: [Using SQL Lite or SQLAlchemy for the Database?]
+## 02: Using SQL Lite or SQLAlchemy for the Database?
 
 ### Meta
 
@@ -67,7 +67,7 @@ The Idea was Tien Minh Nguyen's.
 
 ---
 
-## 03: [Creating WO (WORKING)Branch]
+## 03: Creating WO (WORKING)Branch
 
 ### Meta
 
@@ -79,7 +79,7 @@ Updated
 
 ### Problem statement
 
-Working driectly in the main branch would be dangerous and not effektiv when two people are working on the same project in the same branch.
+Working directly in the main branch would be dangerous and not effectively when two people are working on the same project in the same branch.
 
 ### Meta
 
@@ -92,7 +92,7 @@ Using Branches was Dao Minh Duong Nguyen's and Tien Minh Nguyen's idea.
 
 ---
 
-## 04: [WTForms ?]
+## 04: WTForms ?
 
 ### Meta
 
@@ -117,7 +117,7 @@ The Idea was Tien Minh Nguyen's.
 
 ---
 
-## 05: [Using Pop up warning?]
+## 05: Using Pop up warning?
 
 ### Meta
 
@@ -133,7 +133,7 @@ Having warnings like when a User enters the password wrong are shown currently i
 
 ### Decision
 
-Instead of opening a new page a warning pop up should be shown, which can be closed by clicken the close button. This would make the warning look better.
+Instead of opening a new page a warning pop up should be shown, which can be closed by clicking the close button. This would make the warning look better.
 The Idea was Tien Minh Nguyen's.
 
 ### Regarded options
@@ -142,7 +142,7 @@ The Idea was Tien Minh Nguyen's.
 
 ---
 
-## 05: [Terminal updates output]
+## 05: Terminal updates output
 
 ### Meta
 
@@ -154,11 +154,11 @@ Updated
 
 ### Problem statement
 
-While creating the Login and Register function i was not everytime sure if a User was logged in or not or registerd yet.
+While creating the Login and Register function i was not sure if a User was logged in or not or registered yet.
 
 ### Decision
 
-Creating a Terminal output every time a User is logged in and registerd gave me the confirmation of my work. I added the current page and user to the terminal output. It was something nice to have.
+Creating a Terminal output every time a User is logged in and registered gave me the confirmation of my work. I added the current page and user to the terminal output. It was something nice to have.
 The Idea was Tien Minh Nguyen's.
 
 ### Regarded options

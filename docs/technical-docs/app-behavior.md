@@ -7,7 +7,7 @@ nav_order: 2
 {: .label }
 [Tien Minh Nguyen]
 
-# [App behavior]
+# App behavior
 {: .no_toc }
 
 <details open markdown="block">
