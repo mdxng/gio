@@ -130,9 +130,9 @@ Updated
 - WTForms
 - ?
 
-| Criterion | Main Branch | WO Branch |
-| Know-how| + We know how to create brnaches | + We know how to create brnaches  |
-| work Progress| - can be dificult when two people working in one brnach | + seperate working space; better for testing   |
+| Criterion | WTForms | WO Branch |
+| Know-how| + learned how to use durring the lessons | + We know how to create brnaches  |
+| integration| + WTForms integrates seamlessly with Flask  | -   |
 
 
 ---

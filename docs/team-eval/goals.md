@@ -21,7 +21,8 @@ Dao Minh Duong Nguyen
 
 We used the project environment of GitHub to organize our work. 
 
-![Goals](assets/images/Kanban/gio-kanban.png)
+![Goals](https://github.com/mdxng/gio/blob/main/docs/assets/images/Kanban/gio-kanban.png?raw=true)
+
 
 ### Goals achieved
 
