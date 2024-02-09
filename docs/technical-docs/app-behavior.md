@@ -21,7 +21,7 @@ nav_order: 2
 
 <img width="950" alt="GIO Flowchart" src="https://github.com/mdxng/gio/blob/main/docs/assets/images/GIOFlowchart.jpg?raw=true">
 
-(https://github.com/mdxng/gio/blob/main/docs/assets/images/GIOFlowchart.jpg?raw=true)
+[GIO FLowchart Image](https://github.com/mdxng/gio/blob/main/docs/assets/images/GIOFlowchart.jpg?raw=true)
 
 # Bahvior
 
