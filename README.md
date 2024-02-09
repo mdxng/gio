@@ -10,7 +10,7 @@ On our [GitPages GIO](mdxng.github.io/gio/) you can find our project documentati
 Flask installation within Python and Git connection in VSCode
 
 ### Steps
-1. Clone this repository by typing into the terminal `$ git clone https://github.com/mdxng/gio`
+1. Clone this repository by typing into VSCode `git clone https://github.com/mdxng/gio`
 2. Open the application folder in VSCode locally and there you have the source code
 3. To open the application: type `flask run` into the VSCode terminal and click with [CTRL] on the link 
 
